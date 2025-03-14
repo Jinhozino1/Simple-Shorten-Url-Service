@@ -26,4 +26,8 @@ http://localhost:8080/ui/index.html
 3. 단축 URL 정보 조회 API
 
 
+## 결과 화면
 <img width="708" alt="Image" src="https://github.com/user-attachments/assets/5703468c-be61-49d3-9379-fb450410fe21" />
+
+
+## API 명세
