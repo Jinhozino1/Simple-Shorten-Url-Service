@@ -24,3 +24,6 @@ http://localhost:8080/ui/index.html
 1. 단축 URL 생성 API
 2. 단축 URL 리다이렉트 API
 3. 단축 URL 정보 조회 API
+
+
+<img width="708" alt="Image" src="https://github.com/user-attachments/assets/5703468c-be61-49d3-9379-fb450410fe21" />
