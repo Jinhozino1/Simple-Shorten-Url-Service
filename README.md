@@ -26,17 +26,13 @@ http://localhost:8080/ui/index.html
 3. 단축 URL 정보 조회 API
 
 
-## 결과 화면
-<img width="708" alt="Image" src="https://github.com/user-attachments/assets/5703468c-be61-49d3-9379-fb450410fe21" />
-
-
 ## API 명세
-##### 1. 단축 URL 생성 API
+### 1. 단축 URL 생성 API
 요청 메서드 : POST
 요청 경로 : /shortenUrl
 
 
-###### 단축 URL 생성 성공 (200 OK)
+### 단축 URL 생성 성공 (200 OK)
 
 요청 바디
 ```json
@@ -55,11 +51,11 @@ http://localhost:8080/ui/index.html
 ```
 
 
-##### 2. 단축 URL 리다이렉트 API
+### 2. 단축 URL 리다이렉트 API
 요청 메서드 : GET
 요청 경로 : /sSAhVQVm
 
-###### 단축 URL 리다이렉트 (301 Moved Permanently)
+### 단축 URL 리다이렉트 (301 Moved Permanently)
 
 요청 바디
 ```json
@@ -71,11 +67,11 @@ http://localhost:8080/ui/index.html
 
 ```
 
-##### 3. 단축 URL 정보 조회 API
+### 3. 단축 URL 정보 조회 API
 요청 메서드 : GET
 요청 경로 : /shortenUrl/6QPs3vdS
 
-###### 단축 URL 정보 조회 성공 (200 OK)
+### 단축 URL 정보 조회 성공 (200 OK)
 
 요청 바디
 ```json
@@ -91,4 +87,6 @@ http://localhost:8080/ui/index.html
 }
 ```
 
+## 결과 화면 (UI 구현)
+<img width="708" alt="Image" src="https://github.com/user-attachments/assets/5703468c-be61-49d3-9379-fb450410fe21" />
 
