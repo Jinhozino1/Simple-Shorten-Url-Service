@@ -31,3 +31,64 @@ http://localhost:8080/ui/index.html
 
 
 ## API 명세
+##### 1. 단축 URL 생성 API
+요청 메서드 : POST
+요청 경로 : /shortenUrl
+
+
+###### 단축 URL 생성 성공 (200 OK)
+
+요청 바디
+```json
+{
+    "originalUrl" : "http://www.google.co.kr"
+}
+```
+
+응답 바디   
+```json
+{
+    "originalUrl": "http://www.google.co.kr",
+    "shortenUrlKey": "sSAhVQVm",
+    "redirectCount": 0
+}
+```
+
+
+##### 2. 단축 URL 리다이렉트 API
+요청 메서드 : GET
+요청 경로 : /sSAhVQVm
+
+###### 단축 URL 리다이렉트 (301 Moved Permanently)
+
+요청 바디
+```json
+
+```
+
+응답 바디
+```json
+
+```
+
+##### 3. 단축 URL 정보 조회 API
+요청 메서드 : GET
+요청 경로 : /shortenUrl/6QPs3vdS
+
+###### 단축 URL 정보 조회 성공 (200 OK)
+
+요청 바디
+```json
+
+```
+
+응답 바디
+```json
+{
+    "originalUrl": "http://www.google.co.kr",
+    "shortenUrlKey": "6QPs3vdS",
+    "redirectCount": 1
+}
+```
+
+
