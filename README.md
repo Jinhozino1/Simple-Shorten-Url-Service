@@ -85,7 +85,7 @@ http://localhost:8080/ui/index.html
     "redirectCount": 1
 }
 ```
-
+            
 # 결과 화면 (UI 구현)
 <img width="708" alt="Image" src="https://github.com/user-attachments/assets/5703468c-be61-49d3-9379-fb450410fe21" />
 
