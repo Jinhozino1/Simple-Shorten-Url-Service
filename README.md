@@ -65,7 +65,7 @@ http://localhost:8080/ui/index.html
 
 응답 바디   
 ```json
-
+단축 URL 자원이 부족합니다.
 ```  
 
 
@@ -106,17 +106,17 @@ http://localhost:8080/ui/index.html
 ```
 
 
-#### 단축 URL 정보 조회 실패 (NotFoundShortenUrlException)
+#### 단축 URL 정보 조회 실패 (404 Not Found)
 
-
-요청 바디
+요청 경로 : /shortenUrl/ssssssss  
+요청 바디  
 ```json
 
 ```
 
 응답 바디
 ```json
-
+단축 URL을 찾지 못했습니다.
 ```
 <br>
 <br>
