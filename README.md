@@ -29,10 +29,10 @@ http://localhost:8080/ui/index.html
 ## API 명세
 
 ### 1. 단축 URL 생성 API
-* 바꿀 URL을 바디에 요청한다.
-    * "originalUrl" : 바꿀 URL
-* 응답 바디에는 바꿀 URL, 단축 URL 키, 리다이렉트된 카운트 수로 응답한다.
-    * "originalUrl" : 바꿀 URL
+* 원래의 URL을 바디에 요청한다.
+    * "originalUrl" : 원래의 URL
+* 응답 바디에는 원래의 URL, 단축 URL 키, 리다이렉트된 카운트 수로 응답한다.
+    * "originalUrl" : 원래의 URL
     * "shortenUrlKey" : 단축 URL 키
     * "redirectCount" : 리다이렉트된 카운트 수 
 * Base56 기반의 키 생성 알고리즘을 사용한다.
@@ -92,8 +92,8 @@ http://localhost:8080/ui/index.html
 ```
 
 ### 3. 단축 URL 정보 조회 API
-* 정보 조회 시 바꿀 URL, 단축 URL 키, 리다이렉트된 카운트 수를 보여야 한다.
-    * "originalUrl" : 바꿀 URL
+* 정보 조회 시 원래의 URL, 단축 URL 키, 리다이렉트된 카운트 수를 보여야 한다.
+    * "originalUrl" : 원래의 URL
     * "shortenUrlKey" : 단축 URL 키
     * "redirectCount" : 리다이렉트된 카운트 수
 * 단축 URL 정보 조회 시 없는 URL은 NotFoundShortenUrlException 예외가 발생한다.    
