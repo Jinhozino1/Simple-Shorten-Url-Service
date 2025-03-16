@@ -86,6 +86,10 @@ http://localhost:8080/ui/index.html
 ```
 
 ### 3. 단축 URL 정보 조회 API
+* 정보 조회 시 바꾸기 전 URL, 단축 URL 키, 리다이렉트된 카운트 수를 보여야 한다.
+    * "originalUrl" : 바꾸기 전 URL
+    * "shortenUrlKey" : 단축 URL 키
+    * "redirectCount" : 리다이렉트된 카운트 수
 * 단축 URL 정보 조회 시 없는 URL은 NotFoundShortenUrlException 예외가 발생한다.    
 
 요청 메서드 : GET    
