@@ -54,8 +54,19 @@ http://localhost:8080/ui/index.html
 }
 ```
 
+#### 단축 URL 생성 실패 (LackOfShortenUrlKeyException 403)
 
- LackOfShortenUrlKeyException
+요청 바디
+```json
+{
+    "originalUrl" : "http://www.google.co.kr"
+}
+```
+
+응답 바디   
+```json
+
+```  
 
 
 ### 2. 단축 URL 리다이렉트 API
@@ -92,6 +103,20 @@ http://localhost:8080/ui/index.html
     "shortenUrlKey": "sSAhVQVm",
     "redirectCount": 1
 }
+```
+
+
+#### 단축 URL 정보 조회 실패 (NotFoundShortenUrlException)
+
+
+요청 바디
+```json
+
+```
+
+응답 바디
+```json
+
 ```
 <br>
 <br>
