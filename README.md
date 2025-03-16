@@ -69,7 +69,8 @@ http://localhost:8080/ui/index.html
 
 
 ### 2. 단축 URL 리다이렉트 API
-* 요청 경로로 요청하면 단축 URL은 리다이렉트된다.  
+* 요청 경로로 요청하면 단축 URL은 리다이렉트된다.
+  
 요청 메서드 : GET    
 요청 경로 : /sSAhVQVm    
 #### 단축 URL 리다이렉트 (301 Moved Permanently)
