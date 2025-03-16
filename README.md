@@ -54,7 +54,7 @@ http://localhost:8080/ui/index.html
 }
 ```
 
-#### 단축 URL 생성 실패 (LackOfShortenUrlKeyException 403)
+#### 단축 URL 생성 실패 (LackOfShortenUrlKeyException)
 
 요청 바디
 ```json
