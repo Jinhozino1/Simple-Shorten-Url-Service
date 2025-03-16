@@ -27,13 +27,11 @@ http://localhost:8080/ui/index.html
 
 
 ## API 명세
- * Base56 기반 키 생성 알고리즘을 사용한다.
- * 단축 URL을 생성할 때 중복되면 다시 랜덤 생성하여 최대 5번 반복한다.
- * 6번 이상 중복되면 LackOfShortenUrlKeyException 예외가 발생한다.
- * 단축 URL 정보 조회 시 없는 URL은 NotFoundShortenUrlException 예외가 발생한다.  
 
 ### 1. 단축 URL 생성 API
-
+* Base56 기반 키 생성 알고리즘을 사용한다.
+* 단축 URL을 생성할 때 중복되면 다시 랜덤 생성하여 최대 5번 반복한다.
+* 6번 이상 중복되면 LackOfShortenUrlKeyException 예외가 발생한다.  
 요청 메서드 : POST    
 요청 경로 : /shortenUrl    
 #### 단축 URL 생성 성공 (200 OK)
@@ -54,7 +52,7 @@ http://localhost:8080/ui/index.html
 }
 ```
 
-#### 단축 URL 생성 실패 (LackOfShortenUrlKeyException)
+#### 단축 URL 생성 실패 (500 Internal Server Error)
 
 요청 바디
 ```json
@@ -70,7 +68,7 @@ http://localhost:8080/ui/index.html
 
 
 ### 2. 단축 URL 리다이렉트 API
-
+* 요청 경로로 요청하면 단축 URL은 리다이렉트된다.  
 요청 메서드 : GET    
 요청 경로 : /sSAhVQVm    
 #### 단축 URL 리다이렉트 (301 Moved Permanently)
@@ -86,6 +84,7 @@ http://localhost:8080/ui/index.html
 ```
 
 ### 3. 단축 URL 정보 조회 API
+* 단축 URL 정보 조회 시 없는 URL은 NotFoundShortenUrlException 예외가 발생한다.  
 
 요청 메서드 : GET    
 요청 경로 : /shortenUrl/sSAhVQVm    
