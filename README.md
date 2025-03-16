@@ -64,7 +64,7 @@ http://localhost:8080/ui/index.html
 ```
 
 응답 바디   
-```json
+```
 단축 URL 자원이 부족합니다.
 ```  
 
@@ -115,7 +115,7 @@ http://localhost:8080/ui/index.html
 ```
 
 응답 바디
-```json
+```
 단축 URL을 찾지 못했습니다.
 ```
 <br>
