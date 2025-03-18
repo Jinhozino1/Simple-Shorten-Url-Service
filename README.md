@@ -4,6 +4,17 @@ http://localhost:8080/ui/index.html
 
 단축 URL 서비스
 
+
+### 사용 기술
+* IntelliJ
+   * Java
+      * SpringBoot
+* JavaScript
+   * AJAX
+   * RESTful API 요청
+
+
+
 ## 요구사항
 
 1. bitly 같은 단축 URL 서비스를 만들어야 합니다.
