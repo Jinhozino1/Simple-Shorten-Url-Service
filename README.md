@@ -9,9 +9,9 @@ http://localhost:8080/ui/index.html
 * IntelliJ
    * Java
       * SpringBoot
-* JavaScript
-   * AJAX
-   * RESTful API 요청
+   * JavaScript
+      * AJAX
+      * RESTful API 요청
 
 
 
